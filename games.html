@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GameSphere - Games</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-gray-900 text-white min-h-screen font-sans">
+
+  <!-- Header -->
+  <header class="bg-black shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="text-red-600">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <h1 class="text-xl md:text-2xl font-bold">GameSphere</h1>
+    </div>
+
+    <nav class="hidden md:flex space-x-32">
+      <a href="index.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Home</a>
+      <a href="games.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Games</a>
+      <a href="news.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">News</a>
+      <a href="contact.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Contact</a>
+    </nav>
+
+    <button class="md:hidden text-white focus:outline-none" aria-label="Toggle menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </header>
+
+  <!-- Games Section -->
+  <section class="py-12 px-6">
+    <h2 class="text-3xl font-bold text-center mb-8">Featured Games</h2>
+    <div class="game-grid">
+      <div class="game-card">
+        <a href = "fc25.html">
+        <img src="images/FC25 picture.jpg" alt="FC25 Logo" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-xl font-bold">FC25</h3>
+          <p class="text-sm text-gray-400">
+            Platform: <span class="text-red-500">PC and Console</span> | Genre: <span class="text-red-500">RPG</span>
+          </p>
+          <p class="mt-2 text-gray-300">Team up with friends in your favourite modes with the new 5v5 Rush, and manage your club to victory as FC IQ delivers more tactical control than ever before.</p>
+        </div>
+        </a>
+      </div>
+      <div class="game-card">
+        <a href = "codm.html">
+        <img src="images/CODM_Logo-removebg-preview.png" alt="Call of Duty Mobile" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Call of Duty Mobile</h3>
+          <p class="text-sm text-gray-400">
+            Platform: <span class="text-red-500">Mobile</span> | Genre: <span class="text-red-500">FPS</span>
+          </p>
+          <p class="mt-2 text-gray-300">Experience the thrill of Call of Duty on the go. Play as iconic characters in battle royale and multiplayer in our best fps free mobile game.</p>
+        </div>
+        </a>
+      </div>
+      <div class="game-card">
+        <a href = "fortnite.html">
+        <img src="images/Fortnite picture.png" alt="Fortnite" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-xl font-bold">Fortnite</h3>
+          <p class="text-sm text-gray-400">
+            Platform: <span class="text-red-500">All Platforms</span> | Genre: <span class="text-red-500">Battle Royale</span>
+          </p>
+          <p class="mt-2 text-gray-300">Fortnite Battle Royale is a player-versus-player game for up to 100 players, allowing one to play alone, in a duo, or in a squad (usually consisting of three or four players).</p>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 py-8 px-6 text-center">
+    <div class="flex justify-center space-x-4 mb-4">
+    </div>
+    <p>&copy; 2025 GameSphere. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

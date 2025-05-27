@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GameSphere - News</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-gray-900 text-white min-h-screen font-sans">
+
+  <!-- Header -->
+  <header class="bg-black shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="text-red-600">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <h1 class="text-xl md:text-2xl font-bold">GameSphere</h1>
+    </div>
+
+    <nav class="hidden md:flex space-x-6">
+      <a href="index.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Home</a>
+      <a href="games.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Games</a>
+      <a href="news.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded text-red-500" aria-current="page">News</a>
+      <a href="contact.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Contact</a>
+    </nav>
+
+    <button class="md:hidden text-white focus:outline-none" aria-label="Toggle menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </header>
+
+  <!-- News Section -->
+  <section class="py-12 px-6">
+    <h2 class="text-3xl font-bold text-center mb-8">Latest News</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="image-container">
+        <img src="images/Grand_Theft_Auto_VI_logo_.png" alt="Image for GTA 6 DLC is already disappointing fans, and we get it" class="game-image" />
+        <div class="p-4">
+          <p class="text-xs text-gray-400 mb-1">May 10, 2025</p>
+          <h3 class="text-lg font-semibold">GTA 6 DLC is already disappointing fans, and we get it</h3>
+          <p class="mt-2 text-gray-300">GTA VI will be a ridiculously big game, but since it will probably be over a decade until GTA VII is even close to launch, Rockstar's next game needs DLC, single player DLC specifically.
+            In my opinion, one of the biggest fumbles with GTA V is that once the story mode is over, it just sort of…ends.
+            We all know why it is so that players are forced to jump into GTA V: Online, but for those of us who do not enjoy getting grieved by other players or endlessly grinding heists for pocket change, it’s not exactly the best experience.</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="images/COD_BO6_News picture.png" alt="Image for Call of Duty Black Ops 6 Season 4 Drops May 29 on All Platforms" class="game-image" />
+        <div class="p-4">
+          <p class="text-xs text-gray-400 mb-1">April 28, 2025</p>
+          <h3 class="text-lg font-semibold">Call of Duty Black Ops 6 Season 4 Drops May 29 on All Platforms</h3>
+          <p class="mt-2 text-gray-300">Activision on Friday announced that Call of Duty: Black Ops 6 Season 4 will launch across PC and consoles on Thursday, May 29, at 9 a.m. PT, delivering a suite of new maps, modes and quality-of-life improvements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 py-8 px-6 text-center">
+    <p>&copy; 2025 GameSphere. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

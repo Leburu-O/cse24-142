@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fortnite - GameSphere</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-gray-900 text-white min-h-screen font-sans">
+
+  <!-- Header -->
+  <header class="bg-black shadow-md p-4 flex justify-between items-center sticky top-0 z-50">
+    <div class="flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" class="text-red-600">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <h1 class="text-xl md:text-2xl font-bold">GameSphere</h1>
+    </div>
+
+    <nav class="hidden md:flex space-x-6">
+      <a href="index.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Home</a>
+      <a href="games.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Games</a>
+      <a href="news.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">News</a>
+      <a href="contact.html" class="transition-colors duration-300 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 rounded">Contact</a>
+    </nav>
+
+    <button class="md:hidden text-white focus:outline-none" aria-label="Toggle menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </header>
+
+  <!-- Fortnite Page Content -->
+  <main class="container mx-auto py-10 px-6">
+    <a href="games.html" class="back-link">&laquo; Back to Games</a>
+
+    <div class="game-detail-container">
+      <!-- Left: Logo Box -->
+      <div class="game-image">
+        <img src="images/Fortnite picture.png" alt="Fortnite Logo">
+      </div>
+
+      <!-- Right: Overview Text -->
+      <div class="game-description">
+        <h2>Fortnite</h2>
+        <p class="game-meta">Platform: All Platforms | Genre: Battle Royale</p>
+
+        <p>
+          Fortnite Battle Royale is a player-versus-player game for up to 100 players, allowing one to play alone, in a duo, or in a squad (usually consisting of three or four players).
+        </p>
+
+        <p>
+          In Fortnite, players drop onto an ever-shrinking map to battle enemies while scavenging weapons, building structures, and surviving as long as possible. With regular updates, new seasons, and limited-time events, Fortnite remains one of the most popular online games across PC, console, and mobile devices.
+        </p>
+
+        <p>
+          Whether you're playing Creative, Save the World, or the famous Battle Royale mode, Fortnite offers something for everyone — from casual gamers to competitive esports professionals.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 py-8 px-6 text-center">
+    <p>&copy; 2025 GameSphere. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
